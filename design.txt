@@ -1,0 +1,38 @@
+To-do:
+Navbar
+> Slimmer design
+> Centered page links (for reference https://www.apple.com/)
+> translucent
+> highlighted text when hovering
+
+Home
+> Change name to Chris Lee
+> Introduction
+> Resume download link
+> easy access contacts to linkedin/github
+
+Hero
+> remove video
+
+About
+> Use rounded square cards (like seen https://www.apple.com/macbook-air/)
+> Current and past experiences
+
+Projects
+> Cards displaying projects with learned skills
+
+Final Design Idea:
+Go for a sleek design (Like Apple)
+- responsive scrolling sections of webpage
+- sections are also clickable and link to each sections
+- sections "open up" animation
+
+Figure out:
+- acquire free domain name
+- 
+
+Project Ideas to Include:
+- some sort of python data analytics dashboard, using react.js build another website
+- poker?
+- small automation projects
+- java/spring-boot project
