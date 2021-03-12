@@ -18,6 +18,7 @@ function Navbar() {
     }
   };
 
+
   //use useEffect react hook
   useEffect(() => {
     showButton()
@@ -35,11 +36,6 @@ function Navbar() {
 
         {/* add div so that initials are not affected by smaller window */}
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
-            <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
-            CL
-            </Link>
-          </li>
           <li className='nav-item'>
             <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
             <i class="fas fa-home"></i> {'\u00A0'} Home

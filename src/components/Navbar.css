@@ -1,7 +1,7 @@
 .navbar {
-  background: rgb(10, 25, 47);
-  height: 48px;
-  max-height: 44px;
+  background:rgb(10, 25, 47);
+  height: 65px;
+  max-height: 65px;
   display: flex;
   /*justify-content: center;*/
   align-items: center;
@@ -10,6 +10,7 @@
   top: 0;
   z-index: 999;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .navbar-container {
@@ -39,7 +40,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -101,10 +102,10 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: rgb(16, 40, 77);
     left: 0;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
     z-index: 1;
   }
 
@@ -140,7 +141,7 @@
 
   .fa-times {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .nav-links-mobile {

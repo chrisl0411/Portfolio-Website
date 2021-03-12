@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './App.css';
