@@ -1,4 +1,5 @@
 .hero {
+  background-color: rgb(10, 25, 47);
   margin: 0px auto;
   height: 100%;
   width: 100%;
@@ -6,7 +7,7 @@
   justify-content: center;
   align-items: left;
   object-fit: contain;
-  padding-top: 130px;
+  padding-top: 110px;
   padding-left: 500px;
   padding-right: 500px;
   /* padding-bottom: 450px; */
@@ -41,6 +42,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 5px;
   margin-bottom: 5px;
+  opacity: 0.8;
 }
 
 .hero-btns {
@@ -53,6 +55,14 @@
 
 .fa-play-circle {
   margin-left: 4px;
+}
+
+.inline-text > p {
+  display: inline;
+}
+
+.orange-text > p {
+  color: #cc7a00; 
 }
 
 @media screen and (max-width: 960px) {
@@ -92,20 +102,12 @@
     font-size: 20px;
   }
 
-  .fab-fa-github {
+
+
+  /* .fab-fa-github .fab-fa-linkedin .far-fa-envelope{
     background-color: transparent;
-    font-size: 1.8rem;
-
-  }
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn{
-    width: 100%;
-  }
+    font-size: 1rem;
+  } */
 
 }
 

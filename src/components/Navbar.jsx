@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
 import './Navbar.css';
+import logo from './logo/CL_coffee_logo.png'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -36,6 +37,9 @@ function Navbar() {
 
         {/* add div so that initials are not affected by smaller window */}
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item logo'>
+            <img className='logo' src={logo} alt="Logo"/>
+          </li>
           <li className='nav-item'>
             <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
             <i class="fas fa-home"></i> {'\u00A0'} Home
@@ -49,11 +53,6 @@ function Navbar() {
           <li className='nav-item'>
             <Link to='/Projects' className='nav-links' onClick={closeMobileMenu}>
             <i class="fas fa-laptop-code"></i> {'\u00A0'} Projects
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/Photography' className='nav-links' onClick={closeMobileMenu}>
-            <i class="fas fa-camera"></i> {'\u00A0'} Photography
             </Link>
           </li>
         </ul>
